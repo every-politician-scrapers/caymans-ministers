@@ -9,7 +9,8 @@
       "parent": "Q5589389"
     },
     "source": {
-        "url":   "https://www.gov.ky/pages/743.json",
+        "url":   "https://www.gov.ky/about-us/our-government/the-cabinet",
+        "json":  "https://www.gov.ky/pages/743.json",
         "title": "The Cabinet",
         "lang":  {
             "code": "en",
