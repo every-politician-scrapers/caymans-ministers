@@ -8,14 +8,16 @@ class MemberList
   class Member
     def name
       Name.new(
-        full: fullname,
+        full:     fullname,
         prefixes: %w[Hon.],
-        suffixes: %w[MP JP Hon. Cert. MBE QC],
+        suffixes: %w[MP JP Hon. Cert. MBE QC]
       ).short.delete_suffix(',')
     end
 
     def position
-      fullposition.split(/ and (?=Minister)/).map(&:tidy)
+      fullposition
+        .gsub('Minister for Health, Wellness & Home Affairs', 'Minister for Health & Wellness and Minister for Home Affairs')
+        .split(/ and (?=Minister)/).map(&:tidy)
     end
 
     private
