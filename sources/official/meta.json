@@ -1,0 +1,21 @@
+{
+    "jurisdiction": {
+      "name": "Cayman Islands",
+      "id": "Q5785"
+    },
+    "cabinet": {
+      "id": "Q109769761",
+      "start": "2021-04-26",
+      "parent": "Q5589389"
+    },
+    "source": {
+        "url":   "https://www.gov.ky/about-us/our-government/the-cabinet",
+        "json":  "https://www.gov.ky/pages/743.json",
+        "title": "The Cabinet",
+        "lang":  {
+            "code": "en",
+            "wikidata": "Q1860"
+        }
+    },
+    "agent": "every-politican-scrapers/caymans-ministers"
+}
